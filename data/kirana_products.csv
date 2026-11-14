@@ -1,0 +1,130 @@
+sku,item_name,category,mrp,cost_price,margin_pct
+SKU0001,Aashirvaad Atta 5kg,Staples,285.0,266.48,6.5
+SKU0002,Aashirvaad Atta 10kg,Staples,555.0,521.7,6.0
+SKU0003,Fortune Chakki Atta 5kg,Staples,265.0,246.45,7.0
+SKU0004,India Gate Basmati 1kg,Staples,165.0,151.8,8.0
+SKU0005,Sona Masoori Rice 25kg,Staples,1350.0,1275.75,5.5
+SKU0006,Tata Salt 1kg,Staples,28.0,25.9,7.5
+SKU0007,Fortune Sunflower Oil 1L,Staples,145.0,136.3,6.0
+SKU0008,Saffola Gold Oil 1L,Staples,185.0,172.05,7.0
+SKU0009,Dhara Mustard Oil 1L,Staples,155.0,144.93,6.5
+SKU0010,Toor Dal 1kg (loose),Staples,160.0,145.6,9.0
+SKU0011,Moong Dal 1kg (loose),Staples,140.0,127.4,9.0
+SKU0012,Chana Dal 1kg (loose),Staples,110.0,100.1,9.0
+SKU0013,Rajma 500g,Staples,95.0,85.5,10.0
+SKU0014,Madhur Sugar 1kg,Staples,48.0,45.12,6.0
+SKU0015,Jaggery Block 500g,Staples,65.0,57.85,11.0
+SKU0016,Besan 500g,Staples,62.0,56.11,9.5
+SKU0017,Sooji / Rava 500g,Staples,38.0,34.58,9.0
+SKU0018,Maida 500g,Staples,34.0,30.94,9.0
+SKU0019,Poha 500g,Staples,42.0,38.01,9.5
+SKU0020,Vermicelli 400g,Staples,45.0,40.5,10.0
+SKU0021,Amul Taaza Milk 500ml,Dairy,27.0,25.51,5.5
+SKU0022,Amul Gold Milk 500ml,Dairy,33.0,31.18,5.5
+SKU0023,Heritage Curd 400g,Dairy,45.0,41.85,7.0
+SKU0024,Amul Butter 100g,Dairy,62.0,58.28,6.0
+SKU0025,Amul Cheese Slices 200g,Dairy,145.0,133.4,8.0
+SKU0026,Paneer 200g,Dairy,95.0,86.92,8.5
+SKU0027,Amul Masti Buttermilk 200ml,Dairy,15.0,13.65,9.0
+SKU0028,Nestle Milkmaid 400g,Dairy,165.0,150.97,8.5
+SKU0029,Amul Fresh Cream 250ml,Dairy,85.0,78.2,8.0
+SKU0030,Dairy Whitener 400g,Dairy,245.0,226.62,7.5
+SKU0031,Parle-G Biscuit 250g,Snacks,30.0,25.8,14.0
+SKU0032,Britannia Good Day 200g,Snacks,45.0,38.25,15.0
+SKU0033,Britannia Marie Gold 250g,Snacks,40.0,34.4,14.0
+SKU0034,Oreo Biscuit 120g,Snacks,35.0,29.4,16.0
+SKU0035,Hide & Seek 200g,Snacks,60.0,50.7,15.5
+SKU0036,Bourbon Biscuit 150g,Snacks,35.0,29.75,15.0
+SKU0037,Lays Classic 52g,Snacks,20.0,16.4,18.0
+SKU0038,Kurkure Masala Munch 90g,Snacks,20.0,16.4,18.0
+SKU0039,Bingo Mad Angles 66g,Snacks,20.0,16.4,18.0
+SKU0040,Haldiram Aloo Bhujia 200g,Snacks,55.0,45.65,17.0
+SKU0041,Haldiram Soan Papdi 250g,Snacks,95.0,79.33,16.5
+SKU0042,Mixture Namkeen 400g,Snacks,85.0,70.12,17.5
+SKU0043,Peanuts Masala 150g,Snacks,40.0,32.4,19.0
+SKU0044,Popcorn Ready 100g,Snacks,45.0,36.0,20.0
+SKU0045,Maggi Noodles 70g,Instant,14.0,12.18,13.0
+SKU0046,Maggi Noodles 12-pack,Instant,168.0,149.52,11.0
+SKU0047,Yippee Noodles 70g,Instant,14.0,12.04,14.0
+SKU0048,Top Ramen 70g,Instant,15.0,12.9,14.0
+SKU0049,MTR Upma Mix 200g,Instant,65.0,55.25,15.0
+SKU0050,MTR Gulab Jamun Mix 200g,Instant,85.0,71.4,16.0
+SKU0051,Knorr Soup Sachet,Instant,55.0,45.65,17.0
+SKU0052,Tata Tea Gold 250g,Beverages,160.0,145.6,9.0
+SKU0053,Red Label Tea 500g,Beverages,265.0,242.48,8.5
+SKU0054,Taj Mahal Tea 250g,Beverages,175.0,159.25,9.0
+SKU0055,Bru Instant Coffee 50g,Beverages,165.0,148.5,10.0
+SKU0056,Nescafe Classic 50g,Beverages,195.0,175.5,10.0
+SKU0057,Bournvita 500g,Beverages,245.0,221.72,9.5
+SKU0058,Horlicks 500g,Beverages,265.0,239.83,9.5
+SKU0059,Coca-Cola 750ml,Beverages,40.0,35.2,12.0
+SKU0060,Thums Up 750ml,Beverages,40.0,35.2,12.0
+SKU0061,Sprite 750ml,Beverages,40.0,35.2,12.0
+SKU0062,Frooti 160ml,Beverages,10.0,8.5,15.0
+SKU0063,Maaza 600ml,Beverages,40.0,35.0,12.5
+SKU0064,Bisleri Water 1L,Beverages,20.0,17.4,13.0
+SKU0065,Real Juice Mixed Fruit 1L,Beverages,120.0,104.4,13.0
+SKU0066,Red Bull 250ml,Beverages,125.0,107.5,14.0
+SKU0067,Lifebuoy Soap 125g,PersonalCare,38.0,31.54,17.0
+SKU0068,Lux Soap 100g,PersonalCare,42.0,34.65,17.5
+SKU0069,Dove Soap 100g,PersonalCare,75.0,61.12,18.5
+SKU0070,Santoor Soap 100g,PersonalCare,38.0,31.35,17.5
+SKU0071,Clinic Plus Shampoo 175ml,PersonalCare,135.0,109.35,19.0
+SKU0072,Head & Shoulders 180ml,PersonalCare,210.0,168.0,20.0
+SKU0073,Shampoo Sachet 6ml,PersonalCare,3.0,2.34,22.0
+SKU0074,Colgate Strong Teeth 100g,PersonalCare,95.0,77.9,18.0
+SKU0075,Close-Up 150g,PersonalCare,115.0,93.72,18.5
+SKU0076,Dabur Red Toothpaste 100g,PersonalCare,92.0,75.44,18.0
+SKU0077,Parachute Coconut Oil 200ml,PersonalCare,115.0,96.02,16.5
+SKU0078,Navratna Cool Oil 100ml,PersonalCare,75.0,61.5,18.0
+SKU0079,Nivea Cream 60ml,PersonalCare,95.0,76.0,20.0
+SKU0080,Vaseline Lotion 200ml,PersonalCare,185.0,148.92,19.5
+SKU0081,Gillette Razor Pack,PersonalCare,65.0,51.35,21.0
+SKU0082,Whisper Ultra 15s,PersonalCare,175.0,141.75,19.0
+SKU0083,Pampers Pants M 9s,PersonalCare,299.0,254.15,15.0
+SKU0084,Dettol Handwash 200ml,PersonalCare,99.0,79.69,19.5
+SKU0085,Talcum Powder 100g,PersonalCare,85.0,68.0,20.0
+SKU0086,Fair & Lovely 50g,PersonalCare,120.0,94.8,21.0
+SKU0087,Surf Excel Easy Wash 1kg,HomeCare,140.0,119.0,15.0
+SKU0088,Ariel Matic 1kg,HomeCare,235.0,198.57,15.5
+SKU0089,Rin Bar 250g,HomeCare,22.0,18.37,16.5
+SKU0090,Vim Dishwash Bar 200g,HomeCare,20.0,16.6,17.0
+SKU0091,Vim Liquid Gel 500ml,HomeCare,125.0,102.5,18.0
+SKU0092,Harpic Toilet Cleaner 500ml,HomeCare,110.0,90.2,18.0
+SKU0093,Lizol Floor Cleaner 975ml,HomeCare,215.0,177.38,17.5
+SKU0094,Colin Glass Cleaner 500ml,HomeCare,110.0,89.65,18.5
+SKU0095,Good Knight Refill,HomeCare,85.0,70.55,17.0
+SKU0096,All Out Refill,HomeCare,80.0,66.4,17.0
+SKU0097,Agarbatti Pack,HomeCare,35.0,27.3,22.0
+SKU0098,Candles Pack 6s,HomeCare,45.0,34.65,23.0
+SKU0099,Scotch-Brite Scrub Pad,HomeCare,25.0,20.0,20.0
+SKU0100,Garbage Bags 30s,HomeCare,99.0,79.69,19.5
+SKU0101,Everest Turmeric 200g,Spices,72.0,63.36,12.0
+SKU0102,Everest Chilli Powder 200g,Spices,98.0,86.24,12.0
+SKU0103,MDH Garam Masala 100g,Spices,85.0,74.38,12.5
+SKU0104,Everest Coriander 200g,Spices,68.0,59.84,12.0
+SKU0105,Cumin Seeds 100g,Spices,65.0,56.55,13.0
+SKU0106,Mustard Seeds 100g,Spices,28.0,24.36,13.0
+SKU0107,Sambar Powder 200g,Spices,88.0,76.56,13.0
+SKU0108,Rasam Powder 100g,Spices,55.0,47.85,13.0
+SKU0109,Tamarind 200g,Spices,48.0,41.28,14.0
+SKU0110,Ginger Garlic Paste 200g,Spices,55.0,47.02,14.5
+SKU0111,Cadbury Dairy Milk 50g,Confection,45.0,37.57,16.5
+SKU0112,5 Star 3-pack,Confection,50.0,41.5,17.0
+SKU0113,Perk 25g,Confection,20.0,16.5,17.5
+SKU0114,Eclairs Jar,Confection,95.0,76.0,20.0
+SKU0115,Center Fresh Jar,Confection,90.0,72.45,19.5
+SKU0116,Cadbury Celebrations 141g,Confection,220.0,187.0,15.0
+SKU0117,Dry Fruits Mix 250g,Confection,320.0,275.2,14.0
+SKU0118,Kaju 250g,Confection,280.0,243.6,13.0
+SKU0119,Matchbox 10s,Misc,10.0,7.5,25.0
+SKU0120,Battery AA 2s,Misc,35.0,26.95,23.0
+SKU0121,Notebook 200pg,Misc,55.0,41.8,24.0
+SKU0122,Pen Blue 5s,Misc,50.0,37.5,25.0
+SKU0123,Phone Charging Cable,Misc,149.0,107.28,28.0
+SKU0124,Umbrella Folding,Misc,349.0,258.26,26.0
+SKU0125,Thermos Flask 500ml,Misc,449.0,327.77,27.0
+SKU0126,Steel Lunch Box 3-tier,Misc,599.0,449.25,25.0
+SKU0127,Wall Clock Plastic,Misc,399.0,279.3,30.0
+SKU0128,Hair Dryer Basic,Misc,899.0,665.26,26.0
+SKU0129,Gift Wrap Sheet 5s,Misc,60.0,43.2,28.0

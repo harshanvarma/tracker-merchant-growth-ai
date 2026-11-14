@@ -1,0 +1,59 @@
+<div id="tip" class="tip"></div>
+
+<!-- =============================== SETUP =============================== -->
+<div id="setup">
+  <div class="sw">
+    <div class="logo">
+      <div class="logo-m">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#fff"
+             stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 17l5-5 4 3 5-7 4 4"/></svg>
+      </div>
+      <div>
+        <div class="logo-t">Tracker</div>
+        <div class="logo-s">Merchant Growth AI</div>
+      </div>
+    </div>
+    <div class="scard" id="scard"></div>
+  </div>
+</div>
+
+<!-- ================================ APP ================================ -->
+<div id="app">
+  <header class="top">
+    <div class="top-r">
+      <div class="top-l">
+        <div class="logo-m">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff"
+               stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 17l5-5 4 3 5-7 4 4"/></svg>
+        </div>
+        <div class="top-n">Tracker</div>
+      </div>
+      <div class="mbox">
+        <div>
+          <div class="mname" id="mName">—</div>
+          <div class="mmeta" id="mMeta">—</div>
+        </div>
+        <span class="tagb on" id="mTag">—</span>
+        <button class="swbtn" onclick="switchMerchant()" id="swBtn">Switch</button>
+        <select class="lang" id="langSel" onchange="setLang(this.value)">
+          <option value="en">English</option>
+          <option value="hi">हिंदी</option>
+          <option value="te">తెలుగు</option>
+          <option value="ta">தமிழ்</option>
+        </select>
+      </div>
+    </div>
+    <nav class="tabs"><div class="tabs-i" id="tabs"></div></nav>
+  </header>
+  <div class="view" id="view"></div>
+</div>
+
+<div class="mask" id="mask" onclick="if(event.target===this)closeModal()">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="mt" id="mdT"></div>
+    <div class="mb2" id="mdB"></div>
+    <div class="mf"><button class="btn btn-p" onclick="closeModal()">Close</button></div>
+  </div>
+</div>

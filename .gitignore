@@ -1,0 +1,25 @@
+# Generated data — recreate with: python pipeline/run_all.py
+# The 30-day *_sample.csv files ARE committed, so the input format is visible
+# without running the pipeline. These full files are not.
+data/kirana_bills.csv
+data/teastall_payments.csv
+data/_ground_truth_elasticity.csv
+
+# Build output is committed on purpose so GitHub Pages can serve it.
+# Uncomment these if you would rather build on clone.
+# index.html
+
+
+# QA artefacts
+qa/shots/
+qa/*.json
+shots/
+
+# Local
+.env
+*.log
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store
