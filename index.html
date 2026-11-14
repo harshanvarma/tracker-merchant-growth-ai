@@ -2167,10 +2167,11 @@ const SV = {
   busy: false,
   lastErr: null,
 };
-const SPEAKER = { "en-IN": "anushka", "hi-IN": "anushka", "te-IN": "anushka",
-                  "ta-IN": "anushka", "kn-IN": "anushka", "ml-IN": "anushka",
-                  "mr-IN": "anushka", "bn-IN": "anushka", "gu-IN": "anushka",
-                  "pa-IN": "anushka", "od-IN": "anushka" };
+/* bulbul:v3 has its own speaker list; "anushka" (bulbul:v2) is rejected with a 400. */
+const SPEAKER = { "en-IN": "priya", "hi-IN": "priya", "te-IN": "priya",
+                  "ta-IN": "priya", "kn-IN": "priya", "ml-IN": "priya",
+                  "mr-IN": "priya", "bn-IN": "priya", "gu-IN": "priya",
+                  "pa-IN": "priya", "od-IN": "priya" };
 const LANGNAME = { "en-IN": "English", "hi-IN": "Hindi", "te-IN": "Telugu", "ta-IN": "Tamil",
                    "kn-IN": "Kannada", "ml-IN": "Malayalam", "mr-IN": "Marathi",
                    "bn-IN": "Bengali", "gu-IN": "Gujarati", "pa-IN": "Punjabi" };
@@ -2194,6 +2195,24 @@ function svSave(k, base) {
 }
 function svClear() { svSave("", ""); SV.lastErr = null; go("tracker"); }
 window.svClear = svClear;
+
+/* Served by proxy.js with SARVAM_KEY set? Then the key already lives on the
+   server: talk to this origin and go live without asking for one. Silent
+   no-op when opened as a file or from a static host. */
+async function svDetectProxy() {
+  if (SV.on || !/^https?:$/.test(location.protocol)) return;
+  try {
+    const r = await fetch("/__tracker", { cache: "no-store" });
+    if (!r.ok) return;
+    const j = await r.json();
+    if (j && j.proxy && j.key) {
+      SV.base = location.origin;
+      SV.key = "held-by-proxy";       // proxy.js replaces this with the real key
+      SV.on = true;
+    }
+  } catch (e) {}
+}
+window.svDetectProxy = svDetectProxy;
 
 async function svFetch(path, opts) {
   const r = await fetch(SV.base + path, {
@@ -2248,6 +2267,9 @@ async function svAsk(q) {
                { role: "user", content: buildPrompt(q, det, chunks) }],
     temperature: 0.2,
     max_tokens: 700,
+    // sarvam-105b reasons by default and spends the whole budget thinking,
+    // returning content: null. It only turns off when sent explicitly as null.
+    reasoning_effort: null,
     response_format: { type: "json_object" },
   };
   const r = await svFetch("/v1/chat/completions", {
@@ -2984,6 +3006,7 @@ window.micToggle = micToggle;
 </script>
 <script>
 svLoad();
+svDetectProxy();
 setupRender();
 </script>
 </body>

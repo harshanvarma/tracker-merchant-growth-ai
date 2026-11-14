@@ -50,6 +50,7 @@ window.__SN__={jd("share_nonbilling.json")};
 </script>
 <script>
 svLoad();
+svDetectProxy();
 setupRender();
 </script>
 </body>

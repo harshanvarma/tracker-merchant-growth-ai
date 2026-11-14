@@ -105,6 +105,10 @@ http.createServer((req, res) => {
   if (req.method === "OPTIONS") { res.statusCode = 204; return res.end(); }
 
   const u = req.url.split("?")[0];
+  if (u === "/__tracker") {           // lets the app find this proxy and go live on its own
+    res.setHeader("Content-Type", "application/json");
+    return res.end(JSON.stringify({ proxy: true, key: !!KEY || MOCK, mock: MOCK }));
+  }
   if (SARVAM_PATHS.some(p => u.startsWith(p))) {
     const parts = [];
     req.on("data", c => parts.push(c));
